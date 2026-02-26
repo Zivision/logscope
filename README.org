@@ -1,0 +1,17 @@
+#+title: Logscope
+Local JSON log search for developers.
+Logscope is a tool for filtering, grouping, and analyzing JSON logs.
+
+*  Why Logscope?
+This tool is swift in debugging JSON logs from popular tools such as:
+
+- Docker
+- Kubernetes
+- Backend APIs
+
+This tool is aimed for quick log analysis and not a total replacement for grep or jq.
+
+**  Quick Start
+#+begin_src bash
+logscope app.log --level error
+#+end_src
